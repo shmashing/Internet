@@ -29,8 +29,8 @@
 #wrapper{
     margin-top: -35px;
     background: white;
-    background: linear-gradient(LightGrey, white, white);
-
+    background: linear-gradient(LightGrey, white, white, white);
+    position:absolute;
     height:100%;
     width:100%;
 }
@@ -59,6 +59,72 @@
     opacity: 0.95;
 
 }
+.contact_bar{
+    margin-left: 20%;
+    margin-top: 20px;
+    width:80%;
+    height: 8%;
+    position:absolute;
+    border-bottom: 1px solid black;
+
+}
+.dns_link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    display:inline-block;
+    vertical-align: top;
+}
+.contact_info{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+ }
+.contact_logo{
+    display: inline-block;
+    position: absolute;
+    right: 220px;
+    top: -10px;
+}
+.phone_number{
+    height: 30px;
+    font-size: 35px;
+    margin-top:-4px;
+    line-height: 30px;
+}
+.small_text{
+    height:10px;
+    margin-top:-20px;
+    font-size: 12px;
+}
+.bottom_text{
+    margin-top: -30px;
+}
+.advertisement{
+    position: absolute;
+    top:280px;
+}
+.ad_image{
+    z-index: -1;
+}
+.ad_text{
+    position: absolute;
+    top:40px;
+    font-size:24px;
+    text-align: center;
+}
+.ad_logo{
+    position: absolute;
+    top: 130px;
+    left: 55px;
+}
+.ad_button{
+    position: absolute;
+    top: 280px;
+    left:47px;	
+    border-radius: 6px;
+}
 .blue_button{
     background: linear-gradient(LightSteelBlue, SteelBlue, LightSteelBlue);
 }
@@ -74,4 +140,7 @@
 .white{
     color: white;
 }
+.light_blue{
+    color: DarkTurquoise;
 
+}
