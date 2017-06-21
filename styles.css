@@ -125,6 +125,38 @@
     left:47px;	
     border-radius: 6px;
 }
+.main_body{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width: 75%;
+}
+.body_title{
+    font-size: 28px;
+}
+.body_img{
+    margin-left: 260px;
+}
+.body_continuation{
+    position: absolute;
+    left: 20%;
+    top: 670px;
+    width: 75%;
+    border: 5px solid RoyalBlue;
+    border-bottom: none;
+}
+.body_continuation img{
+    margin:15px;
+    float: left;
+}
+.body_continuation p{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.body_continuation a{
+    text-decoration: none;
+    color: DarkTurquoise;
+}
 .blue_button{
     background: linear-gradient(LightSteelBlue, SteelBlue, LightSteelBlue);
 }

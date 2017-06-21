@@ -41,6 +41,34 @@
         </div>
       </div>
       <div class="main_body">
+        <p class="body_title blue"><b>Clients and Servers</b></p>
+        <p class="body_content">Computers connected to the <span class="light_blue">Web</span> are called <b>clients</b> and <b>servers.</b></p>
+        <ul>
+          <li>
+            <p><span class="light_blue">Clients </span>are the typical Web user's Internet-connected devices(for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="light_blue">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</p>
+          </li>
+          <li>
+            <p><span class="light_blue">Servers </span>are computers that store <span class="light_blue">webpages,</span>, <span class="light_blue">sites</span>, or <span class="light_blue">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be diplayed in the user's web brower.</p>
+          </li>
+        </ul>
+       
+        <img src="images/client_server.jpg" alt="client/server diagram" width=300 class="body_img">
+
+        <p class="body_title blue"><b>So What Actually Happens?</b></p>
+        <ol>
+          <li>
+            <p>The browser goes to the <span class="light_blue">DNS server</span> and finds the real address of the <span class="light_blue">server </span>that the website lives on.</p>
+          </li>
+          <li>
+            <p>The browser sends an <span class="light_blue">HTTP request </span> message to the server asking it to send a copy of the website to the client.</p>
+          </li>
+          <li>
+            <p>If the server approves the client's request, the server sends the client a <span class="light_blue">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</p>
+          </li>
+          <li>
+            <p>The browser assembles the small chunks into a complete website and displays it to you!</p>
+          </li>
+        </ol>
 
       </div>
       <div class="advertisement">
@@ -50,9 +78,14 @@
         <form action="#">
           <input type="submit" value="More Resources >>>" class="ad_button blue_button white" />
         </form>
-
       </div>
 
+      <div class="body_continuation">
+        <img src="images/html.png" alt="html/css/js image" width=150>
+        <p class="body_title blue">The Big 3 - HTML, CSS, JavaScript</p>
+        <p>While the server can process information in many different languages, the files that they serve to the client are <i>always</i> going to be some combination of HTML, CSS, and JavaScript!</p>
+        <p>Learn more about the Big 3 <span class="light_blue"><a href="">here!</a></span></p>
+      </div>
     </div> <!-- end of wrapper -->
   </body>
 </html>
